@@ -4,5 +4,4 @@
 ## This is Astro-UserBoT 
 
 # WILL WRITE GOOD README 😂LATER
- # Deploy For Devs:->
- [![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SilentDevs/ASTRO-UserBot)
+ 
