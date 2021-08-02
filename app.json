@@ -1,0 +1,115 @@
+{
+  "name": "ASTRO UserBot🌌",
+  "description": "A plugable userbot with lots of features and special security modules",
+  "logo": "https://telegra.ph/file/b1f217e58d67de4af1ab2.jpg",
+   "keywords": [
+  "telegram",
+  "userbot", 
+  "astro",
+  "plugable"
+ ],
+ "repository": "https://github.com/SilentDevs/ASTRO-UserBot/",
+  "website": "https://github.com/loverboyXD",
+  "env": {
+   "ENV": {
+    "description": "Setting this to ANYTHING will enable heroku.",
+    "value": "ANYTHING"
+  },
+  "API_ID": {
+    "description": "Your Telegram API_ID get from my.telegram.org OR @Api_ScrapperRoBot ",
+    "value": "",
+    "required": true
+  },
+  "API_HASH": {
+    "description": "Your Telegram API_HASH key get from my.telegram.org OR @Api_ScrapperRoBot",
+    "value": "",
+    "required": true
+  },
+  "STRING_SESSION": {
+    "description": "Your TELETHON string Session get your string session from https://replit.com/@loverboyXD/SESSIONSTRING-GEN#main.py",
+    "value": "",
+    "required": true
+  },
+  "NAME": {
+    "description": "Your Alive Name which will display on .alive",
+    "value": "",
+    "required": false
+  },
+  "OWNER_ID": {
+    "description": "Your Telegram ID",
+    "value": "1258905497//REPACE WITH YOUR",
+    "required": true
+  },
+  "OWNER_USERNAME": {
+    "description": "Your Telegram Username with '@' ",
+    "value": "",
+    "required": true
+  },
+  "BOT_TOKEN": {
+    "description": "Your BoT ttoken get from @botfather ",
+    "value": "",
+    "required": true
+  },
+  "BOT_USERNAME": {
+    "description": "Your bot username get from @botfather without '@' ",
+    "value": "",
+    "required": true
+  },
+  "A_TEXT": {
+    "description": "Set Custom Alive Text",
+    "value": "",
+    "required": false
+  },
+  "A_PIC": {
+    "description": "Custom Picture in Alive use Telegraph link",
+    "value": "",
+    "required": false
+  },
+  "PM_PIC": {
+    "description": "Custom Picture in PM_SECURITY",
+    "value": "",
+    "required": false
+  },
+  "PM_TEXT": {
+    "description": "Text which you wanna to show in PM",
+    "value": "",
+    "required" : false
+  },
+  "HNDLR": {
+    "description": "Custom command handler",
+    "value": ".",
+    "required": false
+  },
+  "SUDO_HANDLR": {
+    "description": "Sudo command hhandler",
+    "value": "",
+    "required": false
+  },
+  "SUDO_USERS": {
+    "description": "Users to whom u wanna as sudo users",
+    "value": "",
+    "required": false
+  },
+  "HEROKU_APP_NAME": {
+    "description": "Your Heroku app name paste here too",
+    "value": "",
+    "required": true 
+  },
+  "HEROKU_API_KEY": {
+    "description": "Your Heroku Api key",
+    "value": "",
+    "required": true 
+  },
+  "PRIVATE_GROUP_ID": {
+    "description": "your Private group id it must start from -100",
+    "value": "",
+    "required": true
+  }
+ },
+ "addons": [{
+  "plan": "heroku-postgresql",
+  "options": {
+   "version": "12"
+  }
+ }]
+}
