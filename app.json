@@ -77,7 +77,7 @@
   },
   "HNDLR": {
     "description": "Custom command handler",
-    "value": ".",
+    "value": "",
     "required": false
   },
   "SUDO_HANDLR": {
