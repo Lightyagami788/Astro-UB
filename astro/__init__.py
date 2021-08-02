@@ -12,10 +12,10 @@ import time
 
 if Config.STRING_SESSION:
     session_name = str(Config.STRING_SESSION)
-    bot = TelegramClient(StringSession(session_name), Config.APP_ID, Config.API_HASH)
+    bot = TelegramClient(StringSession(session_name), Config.API_ID, Config.API_HASH)
 else:
     session_name = "startup"
-    bot = TelegramClient(session_name, Config.APP_ID, Config.API_HASH)
+    bot = TelegramClient(session_name, Config.API_ID, Config.API_HASH)
 
 StartTime = time.time()
 vision = "0.0.1"
