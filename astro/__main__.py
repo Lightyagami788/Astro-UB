@@ -6,7 +6,7 @@ from astro.config import Config
 from astro.utils import load_module, start_assistant, load_pmbot
 from pathlib import Path
 import telethon.utils
-from astro import HNDLR
+from astro import CMD_HNDLR
 
 GROUP = Config.PRIVATE_GROUP_ID
 BOTNAME = Config.BOT_USERNAME
