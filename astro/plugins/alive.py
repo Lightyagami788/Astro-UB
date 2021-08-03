@@ -10,9 +10,10 @@ from astro.config import Config
 # Configs # 
 NAME = Config.NAME
 A_PIC = Config.A_PIC if Config.A_PIC else "https://telegra.ph/file/5979e313d5d43fdf40ec7.jpg"
-A_TEXT = Config.A_TEXT if Config.A_TEXT else "Hi This is ƛsτʀ๏ Ready in your protection"
+A_TEXT = Config.A_TEXT if Config.A_TEXT else " This is ƛsτʀ๏ Ready in your protection"
 emoji = "**❅**" 
- 
+emoji2 = "༺"
+emoji3 = "༻"
 
 # This is 4 later Purpose # 
 
@@ -61,8 +62,9 @@ async def amireallyalive(alive):
     end = datetime.now()
     (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
-    astro = f"**『• Welcome To ƛsτʀ๏ •』**\n"
-    astro += f"**{A_TEXT}**\n\n"
+    astro = f"**『• Welcome To ƛsτʀ๏ •』**\n   "
+    astro += f"**{A_TEXT}**\n"
+    astro += f"**{emoji2}** ɩɲƒ๏ σƒ ƛsτʀ๏**{emoji3}\n\n"
     astro += f"{emoji}** ƛsτʀ๏  Vision** ⊳≫ `{vision}`\n"
     astro += f"{emoji}** Python Vision** ⊳≫  `{PYTHON}`\n"
     astro += f"{emoji}** ƛsτʀ๏ uptime** ⊳≫ `{uptime}`\n"
