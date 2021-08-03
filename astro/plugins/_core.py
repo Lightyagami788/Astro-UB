@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 from telethon.tl.types import InputMessagesFilterDocument
-from astro.Config import Config 
+from astro.config import Config 
 from astro import CMD_HELP
 from astro.utils import admin_cmd, load_module, remove_plugin
 
