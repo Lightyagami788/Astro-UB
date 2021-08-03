@@ -1,6 +1,6 @@
 import random 
 from telethon import events 
-from astro import bot, CMD_HELP, HNDLR
+from astro import bot, CMD_HELP
 
 MADARCHOD = (
     "Jaa na Bsdk, gaand mara jaake.",
