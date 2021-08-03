@@ -4,7 +4,7 @@ from io import BytesIO
 import requests
 from astro.plugins import PYTHON
 from astro import bot, vision, StartTime
-from astro import CMD_HELP, HNDLR
+from astro import CMD_HELP
 from astro.config import Config 
 
 # Configs # 
@@ -61,7 +61,8 @@ async def amireallyalive(alive):
     end = datetime.now()
     (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
-    astro = f"**『• Welcome To ƛsτʀ๏ •』**\n\n"
+    astro = f"**『• Welcome To ƛsτʀ๏ •』**\n"
+    astro += f"**{A_TEXT}**\n\n"
     astro += f"{emoji}** ƛsτʀ๏  Vision** ⊳≫ `{vision}`\n"
     astro += f"{emoji}** Python Vision** ⊳≫  `{PYTHON}`\n"
     astro += f"{emoji}** ƛsτʀ๏ uptime** ⊳≫ `{uptime}`\n"
