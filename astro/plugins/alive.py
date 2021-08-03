@@ -74,7 +74,7 @@ async def amireallyalive(alive):
     await alive.get_chat()
     await alive.delete()
 
-    await borg.send_file(A_PIC, A_TEXT, caption=astro, link_preview=False)
+    await borg.send_file(alive.chat_id, A_PIC, caption=astro, link_preview=False)
     await alive.delete()
 
 CMD_HELP.update({"alive": "→ `.alive`\nUse - Check if your bot is working."})
