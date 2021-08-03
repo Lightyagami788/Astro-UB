@@ -17,7 +17,7 @@ from telegraph import Telegraph, upload_file
 
 
 ####  Config ####
-PR_PIC = "https://telegra.ph/file/bb2f5677004057c3729e8.jpg"
+PR_PIC = "https://telegra.ph/file/7a60b27305a9099da8570.jpg"
 PM_TEXT = Config.PM_TEXT
 PM_PIC = Config.PM_PIC
 A_PIC = Config.A_PIC
