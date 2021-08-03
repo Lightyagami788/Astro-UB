@@ -2,7 +2,7 @@ from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from astro.utils import admin_cmd
  
-from astro import CMD_HELP, HNDLR
+from astro import CMD_HELP
 
 
 @astro.on(admin_cmd(r"sg (.*)"))
