@@ -5,4 +5,4 @@
 
 # WILL WRITE GOOD README 😂LATER
  ## FOR CHECKING ERRORS:->
-[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/loverboyXD/Astro-UB
+[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/loverboyXD/Astro-UB)
