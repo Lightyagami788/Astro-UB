@@ -51,8 +51,8 @@ def get_readable_time(seconds: int) -> str:
  
 MYUSER = str(NAME) if Config.NAME else "ASTRO User✨"
 
-@astro.on(admin_cmd(pattern=r"alive (.*)"))
-@astro.on(sudo_cmd(pattern=r"alive (.*)", allow_sudo=True))
+@astro.on(admin_cmd(pattern="alive"))
+@astro.on(sudo_cmd(pattern="alive", allow_sudo=True))
 async def amireallyalive(alive):
     
     start = datetime.now()
