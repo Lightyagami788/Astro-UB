@@ -3,7 +3,7 @@ import io
 import sys
 import traceback
 
-from astro import CMD_HELP, HNDLR
+from astro import CMD_HELP
 
 
 @astro.on(admin_cmd(pattern=r"eval (.*)"))
