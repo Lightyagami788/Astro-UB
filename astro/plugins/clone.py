@@ -7,7 +7,7 @@ from telethon.tl.types import MessageEntityMentionName
 from astro.config import Config
 from astro.utils import admin_cmd
 import asyncio
-from .. import CMD_HELP, HNDLR
+from .. import CMD_HELP
 
 NAME = Config.NAME
 DEFAULTUSER = str(NAME) if NAME else " Astro UB"
