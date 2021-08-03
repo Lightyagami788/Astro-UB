@@ -19,8 +19,8 @@ numpy
 pytest
 pyshorteners
 aiohttp
-bs4
-coffeehouse
+
+
 cowpy
 nltk
 emoji==0.6.0
@@ -64,7 +64,7 @@ urbandict>=0.5
 wikipedia>=1.4.0
 youtube-search
 youtube-search-python
-covid
+
 scapy
 scipy
 faker
@@ -91,12 +91,12 @@ validators
 spamwatch
 nekos.py 
 deep_translator
-pornhub-api
+
 countryinfo
 emoji-country-flag
 langdetect
 fontTools
-googletrans
+
 deezer-python 
 pdf2docx
 beautifulsoup4
