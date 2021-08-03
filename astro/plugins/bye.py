@@ -17,7 +17,7 @@ from astro import CMD_HELP
 from astro.utils import admin_cmd
 
 
-@astro.on(admin_cmd(pattern=r"bye (.*)", outgoing=True))
+@astro.on(admin_cmd(pattern="bye (.*)", outgoing=True))
 async def leave(e):
     x = bot.me
     name = x.first_name
