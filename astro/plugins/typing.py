@@ -1,6 +1,6 @@
 import asyncio
 from astro.utils import admin_cmd
-from astro import CMD_HELP, HNDLR
+from astro import CMD_HELP
 
 @astro.on(admin_cmd(pattern=r"type (.*)"))
 async def _(event):
