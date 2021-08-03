@@ -7,7 +7,7 @@ Syntax: .invite <User(s)>"""
 
 from telethon import functions
 
-from astro import CMD_HELP, HNDLR
+from astro import CMD_HELP
 from astro.utils import edit_or_reply, admin_cmd, sudo_cmd
 
 
