@@ -1,6 +1,6 @@
 import time 
 from datetime import datetime 
-from astro import bot, HNDLR
+from astro import bot
 from astro.plugins import ASTRO, OWNER_ID
 from astro.config import Config 
 ### Config ### 
