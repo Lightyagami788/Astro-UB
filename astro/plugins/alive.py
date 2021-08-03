@@ -69,7 +69,7 @@ async def amireallyalive(alive):
     astro += f"{emoji}** SUDO USER** ⊳≫ `{sudo}`\n"
     astro += f"{emoji}** ƛsτʀ๏ Support** ⊳≫ [Astro Support](https://t.me/Astro_HelpChat)\n"
     astro += f"{emoji}** мy мαsтєя** ⊳≫ [{MYUSER}](tg://user?id={myid})\n\n"
-    astro += f"{emoji}**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.com/SilentDevs/ASTRO-UserBot)"
+    astro += f"{emoji}**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.com/loverboyXD/ASTRO-UB)"
     
     await alive.get_chat()
     await alive.delete()
