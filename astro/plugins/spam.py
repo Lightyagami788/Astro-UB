@@ -3,7 +3,7 @@ import os
 from asyncio import sleep
 from telegraph import Telegraph, upload_file
 from astro.config import Config
-from astro import CMD_HELP, HNDLR
+from astro import CMD_HELP
 
 #############-CONSTANTS-###############
 LOGGER_GROUP = Config.PRIVATE_GROUP_ID
