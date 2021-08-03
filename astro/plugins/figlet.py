@@ -1,6 +1,6 @@
 import pyfiglet
 
-from astro import CMD_HELP, HNDLR
+from astro import CMD_HELP
 from astro.utils import admin_cmd
 
 
