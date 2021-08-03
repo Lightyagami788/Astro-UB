@@ -9,7 +9,7 @@ from os import environ, execle, path, remove
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
-from astro import HNDLR
+from astro import CMD_HNDLR
 
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
@@ -20,7 +20,7 @@ HEROKU_APP_NAME = Config.HEROKU_APP_NAME
 GIT_REPO_NAME = "ASTRO-UserBot"
 UPSTREAM_REPO_URL = "https://github.com/SilentDevs/ASTRO-UserBot"
 
-xxxx = HNDLR if HNDLR else "."
+xxxx = CMD_HNDLR if CMD_HNDLR else "."
 
 
 async def gen_chlog(repo, diff):
