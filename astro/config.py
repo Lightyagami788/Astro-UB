@@ -35,7 +35,7 @@ class Config(object):
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "") 
     DB_URI = os.environ.get("DATABASE_URL", None)
-    UPSTREAM_REPO = "https://github.com/SilentDevs/ASTRO-UserBot"
+    UPSTREAM_REPO = "https://github.com/loverboyXD/ASTRO-UB"
     PRIVATE_GROUP_ID = os.environ.get("PRIVATE_GROUP_ID", None) 
     if PRIVATE_GROUP_ID is not None:
        try:
