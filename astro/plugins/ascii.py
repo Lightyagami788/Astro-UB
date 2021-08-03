@@ -5,8 +5,8 @@ from astro import CMD_HELP
 from astro.utils import admin_cmd
 
 
-@astro.on(admin_cmd(pattern=r"ascii ?(.*)"))
-@astro.on(sudo_cmd(pattern=r"ascii ?(.*)", allow_sudo=True))
+@astro.on(admin_cmd(pattern="ascii ?(.*)"))
+@astro.on(sudo_cmd(pattern="ascii ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
