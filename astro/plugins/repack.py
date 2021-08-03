@@ -2,7 +2,7 @@
 import asyncio
 import os
 
-from astro import CMD_HELP, HNDLR
+from astro import CMD_HELP
 from astro.utils import admin_cmd, sudo_cmd
 
 
