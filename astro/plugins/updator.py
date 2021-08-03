@@ -148,7 +148,7 @@ async def upstream(ups):
             repo.__del__()
             return
         await ups.edit(
-            "**Astro🌌Started to update....Just want till New deploy text in delivered in Your Private GROUP."
+            "**Astro🌌Started to update....Just wait till New deploy sucessfully text in delivered in Your Private GROUP."
         )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
