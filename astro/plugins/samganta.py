@@ -5,7 +5,7 @@ from astro.utils import admin_cmd
 from astro import CMD_HELP
 
 
-@astro.on(admin_cmd(r"sg (.*)"))
+@astro.on(admin_cmd("sg (.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -40,7 +40,7 @@ async def _(event):
             await event.edit(f"{response.message.message}")
 
 
-@astro.on(admin_cmd(r"fakemail (.*)"))
+@astro.on(admin_cmd("fakemail (.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -73,7 +73,7 @@ async def _(event):
             await event.edit(f"{response.message.message}")
 
 
-@astro.on(admin_cmd(r"ub (.*)"))
+@astro.on(admin_cmd("ub (.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -143,7 +143,7 @@ async def _(event):
             await event.edit(f"{response.message.message}")
 
 
-@astro.on(admin_cmd(r"urban (.*)"))
+@astro.on(admin_cmd("urban (.*)"))
 async def _(event):
     if event.fwd_from:
         return
