@@ -5,8 +5,8 @@ from astro import CMD_HELP
 from astro.utils import admin_cmd, sudo_cmd
 
 
-@astro.on(admin_cmd(pattern=r"open (.*)", outgoing=True))
-@astro.on(sudo_cmd(pattern=r"open (.*)", allow_sudo=True))
+@astro.on(admin_cmd(pattern=r"open", outgoing=True))
+@astro.on(sudo_cmd(pattern=r"open", allow_sudo=True))
 async def _(event):
     b = await event.client.download_media(await event.get_reply_message())
     a = open(b, "r")
