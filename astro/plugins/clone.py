@@ -19,7 +19,7 @@ else:
 	    BOTLOG_CHATID = Config.PRIVATE_GROUP_ID
 	
 	
-@astro.on(admin_cmd(pattern=r"clone (.*)"))
+@astro.on(admin_cmd(pattern="clone (.*)"))
 async def _(event):
 	    if event.fwd_from:
 	        return
@@ -76,7 +76,7 @@ async def _(event):
 	        )
 	
 	
-@astro.on(admin_cmd(pattern=r"revert$"))
+@astro.on(admin_cmd(pattern="revert (.*)"))
 async def _(event):
 	    if event.fwd_from:
 	        return
