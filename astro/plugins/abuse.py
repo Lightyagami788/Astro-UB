@@ -62,8 +62,8 @@ MADARCHOD = (
 
 
 
-@astro.on(admin_cmd(pattern=r"gaali (.*)"))
-@astro.on(sudo_cmd(pattern=r"gaali (.*)", allow_sudo=True))
+@astro.on(admin_cmd(pattern="gaali"))
+@astro.on(sudo_cmd(pattern="gaali", allow_sudo=True))
 async def gaali(event):
     await event.edit(random.choice(MADARCHOD))
     
